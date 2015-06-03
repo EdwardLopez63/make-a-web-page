@@ -1,0 +1,91 @@
+/*Personal note, DIV is block and SPAN is inline */
+/*Couldn't get a border within another div class, and learned Box shadow!*/
+/*Learned a way to create a horizontal line, Line-seperator*/
+/*Took out a lot of my breaks in my content since after adding the boxes it was starting to look weird. */
+
+.font {
+	font-family: "Arial";
+}
+
+.background {
+	background-color: #393939;
+	border-radius: 20px;
+	padding:5px;
+}
+
+
+.italic{
+	font-style: italic;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.h2 {
+	font-weight:bold;
+	font-size: 24px;
+	color:white;
+	text-align: center;
+	margin: 10px;
+	text-decoration: underline;
+}
+
+.h3 {
+	font-weight:bold;
+	font-size: 21px;
+	text-align: center;
+	color: #000000;
+}
+
+.lessons {
+	background-color: #6785B5;
+	border-radius: 20px;
+	text-indent: 15px;
+	padding: 15px;
+	margin:20px;
+	box-shadow:  1px 1px 5px black;
+}
+
+.lesson_content {
+	background-color: #FFF498;
+	border-radius: 20px;
+	text-indent: 15px;
+	padding:5px;
+	margin:10px;
+	box-shadow: 1px 1px 5px black;
+}
+
+.line-seperator {
+	height:1px;
+	background:#717171;
+	border-bottom: 1px solid #313030;
+}
+
+.databox1 {
+	background-color: white;
+	border-radius: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	text-indent: 5px;
+	max-width: 250px;
+	padding:5px;
+	margin:5px;
+	box-shadow: 1px 1px 5px black;
+}
+
+
+.tip {
+	text-decoration: underline;
+	font-weight: bold;
+	color:red;
+}
+
+.tag_color1 {
+	color:red;
+	font-weight: bold;
+}
